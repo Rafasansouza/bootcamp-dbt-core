@@ -83,7 +83,7 @@ Por fim, garanta que o projeto está corretamente iniciado:
 ```bash
 # Entre no seu projeto dbt
 cd <Nome_do_seu_projeto> # Se for o mesmo do meu: cd dbt_project
-dbt debug
+poetry run dbt debug
 ```
 
 No fim da execução a mensagem que deve aparecer é: "All checks passed!"
